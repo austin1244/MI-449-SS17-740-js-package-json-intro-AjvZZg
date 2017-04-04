@@ -13,7 +13,7 @@
     "lint:sass": "stylelint source/scss/*.scss",
     "build:sass": "node-sass source/scss/style.scss --output=compiled/css --output-style=compressed --source-map=true",
     "build": "run-s lint:* build:sass",
-    "deploy:surge": "surge --project . --domain sassy-project.surge.sh",
+    "deploy:surge": "surge --project . --domain https://rixausti-kg-tgc7noax99ajvzzg.surge.sh/",
     "deploy": "run-s build deploy:surge"
   },
   "devDependencies": {
